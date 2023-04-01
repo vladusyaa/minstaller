@@ -1,0 +1,138 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+* {
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SF Display', sans-serif;
+}
+
+.mac-window {
+    width: 99%;
+    height: 99%;
+    background-color: #F1F1F1;
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    -webkit-app-region: no-drag;
+}
+
+.mac-title-bar {
+    background: #FBFBFB;
+    height: 27px;
+    padding: 2px 4px 0px 8px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: 1px solid #e5e7eb;
+    -webkit-app-region: drag;
+}
+
+.mac-btn {
+    display: inline-block;
+    width: .75rem !important;
+    vertical-align: middle;
+    height: .75rem !important;
+    border-radius: 50%;
+    margin-right: 4px;
+    -webkit-app-region: no-drag;
+}
+
+.close-btn {
+    background: #ff5c5c;
+    border: 1px solid #e33e41;
+}
+
+.minimise-btn {
+    background: #dfd9d9;
+    border: 1px solid #c7c1c1;
+}
+
+.fullscreen-btn {
+    background: #dfd9d9;
+    border: 1px solid #c7c1c1;
+}
+
+.the-content {
+    height: calc(100% - 20px);
+    width: 100%;
+    text-align: center;
+}
+
+.installer {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline-block;
+}
+
+.icons-arrows {
+    color: #808080;
+    text-decoration: none;
+}
+
+.contentzhir {
+    position: relative;
+    text-align: center;
+}
+
+.arrows {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+}
+  
+/*-----------------------------------------------------------------*/
+
+@font-face {
+    font-family: "SF Display";
+    font-weight: 200;
+    src: url("./resources/SFPRODISPLAYREGULAR.OTF");
+}
+
+@font-face {
+    font-family: "SF Display";
+    font-weight: 300;
+    src: url("./resources/SFPRODISPLAYREGULAR.OTF");
+}
+
+@font-face {
+    font-family: "SF Display";
+    font-weight: 400;
+    src: url("./resources/SFPRODISPLAYREGULAR.OTF");
+}
+
+@font-face {
+    font-family: "SF Display";
+    font-weight: 500;
+    src: url("./resources/SFPRODISPLAYMEDIUM.OTF");
+}
+
+@font-face {
+    font-family: "SF Display";
+    font-weight: 700;
+    src: url("./resources/SFPRODISPLAYBOLD.OTF");
+}
+
+@font-face {
+    font-family: "SF Display";
+    font-weight: 600;
+    src: url("./resources/SFPRODISPLAYBOLD.OTF");
+}
